@@ -1,0 +1,21 @@
+.watch
+{
+    font-family: 'Orbitron', sans-serif;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+   animation: ani 2s ;
+}
+
+@keyframes ani {
+    0% {
+        opacity: 20%;
+    }
+    50% {
+        opacity: 60%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}

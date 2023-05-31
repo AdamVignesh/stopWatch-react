@@ -1,0 +1,44 @@
+#startBtn
+{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#pauseBtn 
+{
+    margin-top: 280px;
+    margin-left: 100px;
+   animation: ani 1s ;
+
+    /* flex-direction:row; */
+}
+
+#resetBtn
+{
+    margin-top: 280px;
+    margin-left: 10px;   
+   animation: ani 1s ;
+
+}
+#stopBtn
+{
+    margin-top: 280px;
+    margin-left: 10px;   
+   animation: ani 1s ;
+   border-radius: 40%;
+   background-color: rgb(184, 36, 36);
+
+}
+@keyframes ani {
+    0% {
+        opacity: 20%;
+    }
+    50% {
+        opacity: 60%;
+    }
+    100% {
+        opacity: 100%;
+    }
+}
