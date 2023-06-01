@@ -15,6 +15,12 @@ function App() {
 
   function handleStartClick()
   {
+    if(pauseOrPlay == 'play')
+    {
+      setPauseOrPlay('pause');
+      setIsPauseClicked(false);
+
+    }
     console.log("in start click");
     setIsStartClicked(true);
     // isStartClicked = 'true';
